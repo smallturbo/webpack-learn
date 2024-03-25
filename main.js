@@ -1,5 +1,3 @@
-import {createApp} from "vue";
-import {createPinia} from "pinia";
-import {createWebHashHistory} from "vue-router";
+import jQuery from "jquery";
 
-console.log(createApp, createPinia, createWebHashHistory);
+console.log(jQuery.ready);
